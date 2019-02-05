@@ -1,4 +1,4 @@
-obj-m+=demo.o
+obj-m:=demo.o
 PWD=$(shell pwd)
 VER=$(shell uname -r)
 KERNEL_BUILD=/lib/modules/$(VER)/build
