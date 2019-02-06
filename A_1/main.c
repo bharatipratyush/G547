@@ -22,6 +22,8 @@
 	static struct class *cls_X;
 	static struct class *cls_Y;
 	static struct class *cls_Z;
+	static char *mystr = "assign1";
+	static int myint = 666;
 
 	//STEP 4.... callback functions
 
