@@ -16,8 +16,6 @@
 	static dev_t ADXL_X;
 	static dev_t ADXL_Y;
 	static dev_t ADXL_Z;
-	static char *mystr = "ass";
-	static int myint = 666;
 	static struct cdev c_dev_x;
 	static struct cdev c_dev_y;
 	static struct cdev c_dev_z;
@@ -294,7 +292,7 @@
 	module_init(mychar_init);
 	module_exit(mychar_exit);
 
-	MODULE_PARM_DESC(myint,"Count of Tuscany");
-	MODULE_DESCRIPTION("HELLS BELLS");
-	MODULE_AUTHOR("CHAMAN");
+	MODULE_PARM_DESC(myint,"STUFF");
+	MODULE_DESCRIPTION("ASSIGNMENT 1");
+	MODULE_AUTHOR("PRATYUSH BHARATI");
 	MODULE_LICENSE("GPL");
